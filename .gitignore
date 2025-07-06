@@ -33,4 +33,13 @@ yarn-error.log*
 
 # typescript
 *.tsbuildinfo
-next-env.d.ts 
+next-env.d.ts
+
+# AWS and deployment
+.env
+.env.local
+.env.production
+aws-config.json
+deploy-*.sh
+setup-*.sh
+DEPLOYMENT_*.md 
